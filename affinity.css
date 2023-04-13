@@ -1,0 +1,32 @@
+body {
+    font-family: Bahnschrift;
+    color: #f1eae3;
+    background-color: #202020;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url("dev_measurewall01a.png");
+    background-size: 25%;
+}
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url(bahnschrift.ttf);
+}
+.DrSh {
+    text-shadow: 4px 0px 16px rgba(0, 0, 0, 0.308);
+}
+.btn {
+    background-image: url(dev_measuregeneric01.png);
+    background-size: 25%;
+    border: none;
+    color: white;
+    padding: 32px 64px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 64px;
+    transition: 0.2s;
+  }
+.btn:hover {
+    background-color: #5D5B5A;
+  }
+title {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0)), url("dev_measuregeneric01.png");
+}
