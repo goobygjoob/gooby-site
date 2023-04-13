@@ -8,3 +8,14 @@ body {
     font-family: 'Bahnschrift';
     src: url(bahnschrift.ttf);
 }
+.affinitylink {
+    color: #e07d08;
+    transition: 0.2s;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.affinitylink:hover {
+    color: #5d5b5A;
+    font-size: xx-large;
+    text-decoration: none;
+}

@@ -14,19 +14,17 @@ body {
     text-shadow: 4px 0px 16px rgba(0, 0, 0, 0.308);
 }
 .btn {
-    background-image: url(dev_measuregeneric01.png);
+    background-color: #e17d08;
     background-size: 25%;
     border: none;
     color: white;
-    padding: 32px 64px;
+    padding: 16px 32px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 64px;
     transition: 0.2s;
   }
 .btn:hover {
     background-color: #5D5B5A;
+    background-size: 25%;
   }
-title {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0)), url("dev_measuregeneric01.png");
-}
