@@ -5,26 +5,26 @@ body {
     text-align: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url("dev_measurewall01a.png");
     background-size: 25%;
+    text-shadow: 4px 0px 16px rgba(0, 0, 0, 0.308);
 }
 @font-face {
     font-family: 'Bahnschrift';
     src: url(bahnschrift.ttf);
 }
-.DrSh {
-    text-shadow: 4px 0px 16px rgba(0, 0, 0, 0.308);
+.unselectable {
+    user-select: none;
 }
-.btn {
-    background-color: #e17d08;
-    background-size: 25%;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 64px;
+.affinity-downloadlink {
+    color: #ffddb7;
+    font-size: 3.5em;
+    text-decoration: none;
     transition: 0.2s;
-  }
-.btn:hover {
-    background-color: #5D5B5A;
-    background-size: 25%;
-  }
+}
+.affinity-downloadlink:hover {
+    color: #f1eae3;
+}
+.mapbase-image {
+    width: 10%;
+    height: 10%;
+    margin-top: 4%;
+}
