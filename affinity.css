@@ -23,6 +23,12 @@ body {
 .affinity-downloadlink:hover {
     color: #f1eae3;
 }
+.affinity-downloadlink-disabled {
+    color: #8f806e;
+    font-size: 3.5em;
+    text-decoration: none;
+    transition: 0.2s;
+}
 .mapbase-image {
     width: 10%;
     height: 10%;
