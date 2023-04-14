@@ -1,27 +1,52 @@
 body {
     font-family: Bahnschrift;
-    color: #f1eae3;
+    color: #e8e5ee;
     background-color: #202020;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url("dev_measurewall01a.png");
-    background-size: 25%;
+    background-image: url("dev_measuregeneric01b.png");
+    background-size: 5%;
     text-shadow: 4px 0px 16px rgba(0, 0, 0, 0.308);
 }
 @font-face {
     font-family: 'Bahnschrift';
     src: url(bahnschrift.ttf);
 }
+
+/* Classes */
+.title {
+    font-size: 8em;
+    margin-top: -0.5%;
+    transition: 2s;
+}
+.title:hover {
+    color: #ffd09d;
+    text-shadow: 0px 0px 32px #e17d08;
+}
+.desc {
+    color: #d3d3da;
+    font-weight: 100;
+    margin-top: -5%;
+}
 .unselectable {
     user-select: none;
 }
+.unselectable-mapbase {
+    opacity: 75%;
+    user-select: none;
+    transition: 0.1s;
+}
+.unselectable-mapbase:hover {
+    opacity: 100%;
+}
 .affinity-downloadlink {
-    color: #ffddb7;
+    color: #E17D08;
     font-size: 3.5em;
     text-decoration: none;
     transition: 0.2s;
 }
 .affinity-downloadlink:hover {
-    color: #f1eae3;
+    color: #ffc387;
+    text-shadow: 0px 0px 32px #ffaf5f;
 }
 .affinity-downloadlink-disabled {
     color: #8f806e;
@@ -33,4 +58,9 @@ body {
     width: 10%;
     height: 10%;
     margin-top: 4%;
+    opacity: 75%;
+    transition: 0.1s;
+}
+.mapbase-image:hover {
+    opacity: 100%;
 }
